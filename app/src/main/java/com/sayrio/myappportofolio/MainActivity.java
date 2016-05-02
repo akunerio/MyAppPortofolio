@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button_1, button_2, button_3, button_4, button_5, button_6;
+    protected Button button_1, button_2, button_3, button_4, button_5, button_6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("popular movies");
+                showToast(getString(R.string.button_one));
             }
         });
 
@@ -32,41 +32,41 @@ public class MainActivity extends AppCompatActivity {
         button_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("stock hawk");
+                showToast(getString(R.string.button_two));
             }
         });
 
         button_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("build it bigger");
+                showToast(getString(R.string.button_three));
             }
         });
 
         button_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("make your app material");
+                showToast(getString(R.string.button_four));
             }
         });
 
         button_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("go ubiquitous");
+                showToast(getString(R.string.button_five));
             }
         });
 
         button_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showToast("capstone!!!");
+                showToast(getString(R.string.button_six));
             }
         });
 
     }
 
     private void showToast(String message) {
-        Toast.makeText(getApplicationContext(), "This button will launch my " + message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), getString(R.string.toast_message) + message, Toast.LENGTH_SHORT).show();
     }
 }
