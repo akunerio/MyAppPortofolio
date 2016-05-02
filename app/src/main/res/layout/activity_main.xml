@@ -26,69 +26,33 @@
 
         <Button
             android:id="@+id/button_one"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_one"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
         <Button
             android:id="@+id/button_two"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_two"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
         <Button
             android:id="@+id/button_three"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_three"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
         <Button
             android:id="@+id/button_four"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_four"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
         <Button
             android:id="@+id/button_five"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_five"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
         <Button
             android:id="@+id/button_six"
-            android:layout_width="@dimen/button_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/button_six"
-            android:textSize="@dimen/button_text_size"
-            android:textColor="@color/colorButtonText"
-            android:background="@color/colorButtonAccent"
-            android:layout_marginBottom="@dimen/button_margin" />
+            style="@style/button_menu"/>
 
     </LinearLayout>
 
